@@ -6,6 +6,7 @@
     <title>MOMO Clone</title>
     <link rel="stylesheet" href="src/public/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -21,9 +22,12 @@
                         <i class="fa-brands fa-instagram"></i>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-line"></i>
-                        <input class="input-search" type="text" placeholder="Search...">
+                        <div class="search">
+                            <input class="input-search" type="text" placeholder="Search...">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        </div>
                     </div>
-                    <div class="down-right-head">
+                    <div class="down-right-head" id="down-right-head" >
                         <ul>
                             <li>หน้าหลัก</li>
                             <li>เกี่ยวกับเรา</li>
@@ -34,8 +38,10 @@
                         </ul>
                     </div>
                 </div>
+                <div class="bar" id="bar-click"><i class="fa-solid fa-bars"></i></div>
             </div>
         </div>
     </div>
+    
 </body>
 </html>
