@@ -1,80 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Prompt', sans-serif; }
 
-.header-back {
-  position: relative;
-  height: 170px; }
+.head-back {
+  background-color: #f8f1de;
+  padding: 0 30px; }
 
-.momo-logo {
-  position: absolute;
-  top: 2px;
-  left: 200px;
-  height: 125px; }
-
-.header {
-  position: relative;
-  display: flex; }
-
-.up-right-head {
-  position: absolute;
-  right: 100px;
-  top: 30px;
+.top-head {
   display: flex;
+  justify-content: space-between;
   align-items: center; }
 
-.up-right-head i {
-  margin: 0 10px;
-  color: #a18d59;
-  font-size: 10px; }
+.head-back img {
+  height: 100px; }
 
-.down-right-head {
-  position: absolute;
-  top: 80px;
-  right: 100px; }
+.bar i {
+  font-size: 30px; }
 
-.down-right-head ul {
-  display: flex; }
+.middle-head li {
+  font-size: 15px;
+  padding: 14px 5px;
+  list-style: none;
+  border-bottom: 1px solid #63470013; }
 
-.down-right-head li {
-  margin: 0 10px;
-  list-style-type: none; }
-
-.input-search {
-  border: 0;
-  border-radius: 16px;
-  padding: 6px 12px 6px 28px; }
+.social i {
+  margin: 15px;
+  opacity: 50%;
+  font-size: 12px; }
 
 .search {
   position: relative; }
 
+.search input {
+  border: 0;
+  padding: 6px 0 6px 30px;
+  border-radius: 16px;
+  font-size: 14px; }
+
 .search i {
-  font-size: 12px; }
-
-.search-icon {
   position: absolute;
-  left: 0.7px;
-  top: 8px; }
+  left: 8px;
+  top: 8px;
+  opacity: 50%; }
 
-.bar {
+.bottom-head {
+  padding: 14px 0 48px 0; }
+
+.all-catagory {
   display: none; }
-
-@media screen and (max-width: 990px) {
-  .up-right-head {
-    display: none; }
-  .bar {
-    display: flex;
-    position: absolute;
-    right: 80px;
-    top: 50px;
-    cursor: pointer; }
-  .bar i {
-    font-size: 40px;
-    color: #666; }
-  .header-back {
-    background-color: #f8f1de; }
-  .down-right-head {
-    display: none; }
-  .down-right-head ul {
-    flex-direction: column; } }

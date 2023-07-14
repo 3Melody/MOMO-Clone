@@ -6,42 +6,64 @@
     <title>MOMO Clone</title>
     <link rel="stylesheet" href="src/public/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <div class="container">
-        <div class="content">
-            <div class="header">
-                <div class="back-momo">
-                    <img class="header-back" src="image/header-momo.png" alt="">
-                    <img class="momo-logo" src="image/momo-paradise-logo.png" alt="">
-                </div>
-                <div class="right-head">
-                    <div class="up-right-head">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-line"></i>
-                        <div class="search">
-                            <input class="input-search" type="text" placeholder="Search...">
-                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <div class="main-content">
+            <header>
+                <div class="head-back">
+                    <div class="top-head">
+                        <div class="right-head">
+                            <img src="image/momo-paradise-logo.png"  alt="">
+                        </div>
+                        <div class="left-head">
+                            <div class="bar" onclick="tabbar()">
+                                <i class="fa-solid fa-bars" ></i>
+                            </div>
                         </div>
                     </div>
-                    <div class="down-right-head" id="down-right-head" >
-                        <ul>
-                            <li>หน้าหลัก</li>
-                            <li>เกี่ยวกับเรา</li>
-                            <li>โปรโมชั่น</li>
-                            <li>รายการอาหาร</li>
-                            <li>สาขา</li>
-                            <li>ติดต่อเรา</li>
-                        </ul>
-                    </div>
+                   <div class="all-catagory" id="all-catagory">
+                        <div class="middle-head">
+                            <ul>
+                                <li>
+                                    <div>หน้าหลัก</div>
+                                </li>
+                                <li>
+                                    <div>เกี่ยวกับเรา</div>
+                                </li>
+                                <li>
+                                    <div>โปรโมชั่น</div>
+                                </li>
+                                <li>
+                                    <div>รายการอาหาร</div>
+                                </li>
+                                <li>
+                                    <div>สาขา</div>
+                                </li>
+                                <li>
+                                    <div>ติดต่อเรา</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom-head">
+                            <div class="social">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-line"></i>
+                            </div>
+                            <div class="search">
+                                <input type="text" placeholder="Search...">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                   </div>
                 </div>
-                <div class="bar" id="bar-click"><i class="fa-solid fa-bars"></i></div>
-            </div>
+                
+            </header>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
