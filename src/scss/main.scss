@@ -1,4 +1,6 @@
 $head-color:#f8f1de;
+$gold-color:#ad8654;
+$red-color:#d8242f;
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
 *{
@@ -66,10 +68,82 @@ font-size: 12px;
     display: none;
 }
 
+.image-preview img{
+    width: 100%;
+    position: relative;
+   
+}
+
+.image-preview img.active{
+    display: block;
+}
+
+.image-preview{
+    position: relative;
+}
 
 
+.text-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 35px;
+    position: relative;
+}
 
+.gold-text{
+    color: $gold-color;
+}
 
+.red-text{
+    color:$red-color;
+}
 
+.text-one p{
+    padding: 20px 0;
+    font-size: 18px;
+    color: #666;
+}
 
+.food-image1 img{
+    position: relative;
+    max-width: 70%;
+    left: -50px;
+}
+
+.food-image2 img{
+    position: absolute;
+    max-width:70%;
+    right: -60px;
+    top: -20px;
+}
+
+.food-img{
+    display: flex;
+    position: relative;
+}
+  
+
+.next-and-back{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.back-image{
+    background-color: black;
+    padding: 20px;
+    opacity: 50%;
+    position: absolute;
+    top: 80px;
+}
+
+.next-image{
+    background-color: black;
+    padding: 20px;
+    opacity: 50%;
+    position: absolute;
+    right:0;
+    top: 80px;
+}
 

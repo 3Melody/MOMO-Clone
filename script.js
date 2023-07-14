@@ -10,3 +10,5 @@ function tabbar(){
     catagory.style.flexDirection = "column";
     }
 }
+
+
