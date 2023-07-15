@@ -135,7 +135,7 @@ font-size: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 35px;
+    padding: 40px 35px 0 35px;
     position: relative;
 }
 
@@ -206,7 +206,7 @@ font-size: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 35px;
+    padding:0 35px;
 }
 
 .text-two h2{
@@ -248,4 +248,69 @@ font-size: 12px;
     font-size: 16px;
     font-weight: 800;
     color: #666;
+}
+
+
+
+.back-text-one img{
+    width: 20%;
+    opacity: 20%;
+}
+
+.back-one-1{
+    position: absolute;
+    top:150px;
+    left:5px;
+}
+
+.back-one-2{
+    position: absolute;
+    top: 100px;
+    right: 5px;
+}
+
+.back-one-3{
+    position: absolute;
+    bottom:40px;
+    left: 150px;
+}
+
+.first-content{
+    position: relative;
+}
+
+.back-content{
+    position: absolute;
+    top: 630px;
+    height: 100%;
+}
+
+.content{
+    position: absolute;
+    max-width: 100%;
+    
+}
+
+.foot{
+    background-color: $head-color;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    color: $gold-color;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.foot div{
+    padding: 10px 0;
+}
+
+.foot-text-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-text-right{
+    display: flex;
+    flex-direction: column;
 }
