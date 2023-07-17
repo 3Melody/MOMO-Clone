@@ -10,6 +10,7 @@ $red-color:#d8242f;
     font-family: 'Prompt', sans-serif;
 }
 
+
 .head-back{
     background-color: $head-color;
     padding: 0 30px;
@@ -275,22 +276,6 @@ font-size: 12px;
     left: 150px;
 }
 
-.first-content{
-    position: relative;
-}
-
-.back-content{
-    position: absolute;
-    top: 630px;
-    height: 100%;
-}
-
-.content{
-    position: absolute;
-    max-width: 100%;
-    
-}
-
 .foot{
     background-color: $head-color;
     padding: 30px 0;
@@ -299,6 +284,7 @@ font-size: 12px;
     color: $gold-color;
     font-size: 14px;
     font-weight: 600;
+    
 }
 
 .foot div{
