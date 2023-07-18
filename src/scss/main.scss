@@ -138,6 +138,7 @@ font-size: 12px;
     align-items: center;
     padding: 40px 35px 0 35px;
     position: relative;
+    margin-bottom: 110px;
 }
 
 .gold-text{
@@ -154,17 +155,23 @@ font-size: 12px;
     color: #666;
 }
 
+.food-image1{
+   position: absolute;
+   right: -20px;
+}
+
+.food-image2{
+    position: absolute;
+   top:-20px;
+   left:20px;
+}
+
 .food-image1 img{
-    position: relative;
-    max-width: 70%;
-    left: -50px;
+    width: 240px;
 }
 
 .food-image2 img{
-    position: absolute;
-    max-width:70%;
-    right: -60px;
-    top: -20px;
+    width: 200px;
 }
 
 .food-img{
@@ -207,7 +214,8 @@ font-size: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:0 35px;
+    padding:0 35px;;
+    position: relative;
 }
 
 .text-two h2{
@@ -252,6 +260,10 @@ font-size: 12px;
 }
 
 
+.text-two{
+    background-color: $head-color;
+}
+
 
 .back-text-one img{
     width: 20%;
@@ -291,12 +303,23 @@ font-size: 12px;
     padding: 10px 0;
 }
 
-.foot-text-left{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .foot-text-right{
     display: flex;
     flex-direction: column;
 }
+
+.back-text-top{
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+
+.back-text-bottom{
+    width: 100%;
+}
+
+
+
