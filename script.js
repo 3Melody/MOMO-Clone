@@ -52,4 +52,5 @@ for (var i = 0; i < dots.length; i++) {
 window.onload = function() {
   slides[currentSlide].style.display = 'block';
   dots[currentSlide].classList.add('active');
+  setTimeout(startSlide, 3000);
 };
