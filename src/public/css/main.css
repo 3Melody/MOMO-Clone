@@ -311,17 +311,18 @@
     position: absolute;
     display: block;
     top: 0;
-    width: 100%; }
+    width: 100%;
+    font-size: 18px; }
   .back-head {
     width: 100%;
     min-height: 150px; }
   .left-top {
     position: absolute;
-    left: 15px;
+    left: 180px;
     top: -1px; }
   .right-top {
     position: absolute;
-    right: 50px;
+    right: 180px;
     top: 10px; }
   .left-top img {
     width: 100px; }
